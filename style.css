@@ -163,4 +163,20 @@ footer {
     text-align: center;
     padding: 60px 20px;
 }
+.titre-portfolio {
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+  text-align: center;
+  color: #007bff;
+  margin-top: 60px;
+  letter-spacing: 2px;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .titre-portfolio {
+    font-size: 42px;
+  }
+}
+
 
