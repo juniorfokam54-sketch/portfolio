@@ -177,6 +177,39 @@ footer {
   .titre-portfolio {
     font-size: 42px;
   }
+    .hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #007bff, #00b894);
+  color: white;
 }
+
+.titre-principal {
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sous-titre {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 15px;
+  opacity: 0.95;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .titre-principal {
+    font-size: 38px;
+  }
+
+  .sous-titre {
+    font-size: 18px;
+  }
+}
+}
+
 
 
